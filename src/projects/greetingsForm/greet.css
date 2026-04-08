@@ -1,0 +1,19 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 5px;
+  margin: 40px auto;
+}
+
+input {
+  padding: 7px 20px;
+}
+button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 7px 0;
+  margin-top: 15px;
+  cursor: pointer;
+}
