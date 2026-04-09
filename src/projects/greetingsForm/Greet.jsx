@@ -10,10 +10,20 @@ function Greet() {
   return (
     <>
       <div>
-        <form action={handleSubmit}>
-          <input type="text" placeholder="first name" name="firstName" />
-          <input type="text" placeholder="last name" name="lastName" />
-          <button>GREET ME</button>
+        <form action={handleSubmit} className="myF">
+          <input
+            type="text"
+            placeholder="first name"
+            name="firstName"
+            className="myI"
+          />
+          <input
+            type="text"
+            placeholder="last name"
+            name="lastName"
+            className="myI"
+          />
+          <button className="myB">GREET ME</button>
         </form>
       </div>
     </>

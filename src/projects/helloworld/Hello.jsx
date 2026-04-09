@@ -2,7 +2,7 @@ import "./hello.css";
 
 function Hello() {
   return (
-    <section>
+    <section className="sec">
       <div className="box">
         <p>Hello, World!</p>
       </div>

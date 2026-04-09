@@ -1,4 +1,4 @@
-form {
+.myF {
   display: flex;
   flex-direction: column;
   width: 40%;
@@ -6,10 +6,10 @@ form {
   margin: 40px auto;
 }
 
-input {
+.myI {
   padding: 7px 20px;
 }
-button {
+.myB {
   background-color: red;
   border: none;
   color: white;
